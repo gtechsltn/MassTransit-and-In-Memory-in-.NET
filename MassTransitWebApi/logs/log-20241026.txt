@@ -1,0 +1,119 @@
+2024-10-26 03:02:40.111 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-26 03:02:40.209 +06:00 [DBG] Hosting starting
+2024-10-26 03:02:40.285 +06:00 [INF] Configured endpoint SampleMessage, Consumer: MassTransitWebApi.Consumers.SampleMessageConsumer
+2024-10-26 03:02:40.804 +06:00 [DBG] Starting bus instances: IBus
+2024-10-26 03:02:40.812 +06:00 [DBG] Starting bus: "loopback://localhost/"
+2024-10-26 03:02:40.892 +06:00 [DBG] Endpoint Ready: "loopback://localhost/SampleMessage"
+2024-10-26 03:02:40.897 +06:00 [DBG] Endpoint Ready: "loopback://localhost/SBLPC_MassTransitWebApi_bus_kzxyyyb6nknk1rc5bdqxkqnh8q"
+2024-10-26 03:02:40.907 +06:00 [INF] Bus started: "loopback://localhost/"
+2024-10-26 03:02:41.163 +06:00 [INF] Now listening on: https://localhost:7171
+2024-10-26 03:02:41.165 +06:00 [INF] Now listening on: http://localhost:5151
+2024-10-26 03:02:41.167 +06:00 [DBG] Loaded hosting startup assembly MassTransitWebApi
+2024-10-26 03:02:41.169 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-26 03:02:41.170 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-26 03:02:41.171 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-26 03:02:41.238 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-26 03:02:41.239 +06:00 [INF] Hosting environment: Development
+2024-10-26 03:02:41.240 +06:00 [INF] Content root path: D:\TestProject\MassTransit\MassTransitWebApi
+2024-10-26 03:02:41.242 +06:00 [DBG] Hosting started
+2024-10-26 03:02:41.536 +06:00 [DBG] Connection id "0HN7L71ENUH5A" received FIN.
+2024-10-26 03:02:41.536 +06:00 [DBG] Connection id "0HN7L71ENUH59" received FIN.
+2024-10-26 03:02:41.544 +06:00 [DBG] Connection id "0HN7L71ENUH5A" accepted.
+2024-10-26 03:02:41.544 +06:00 [DBG] Connection id "0HN7L71ENUH59" accepted.
+2024-10-26 03:02:41.546 +06:00 [DBG] Connection id "0HN7L71ENUH5A" started.
+2024-10-26 03:02:41.547 +06:00 [DBG] Connection id "0HN7L71ENUH59" started.
+2024-10-26 03:02:41.573 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-26 03:02:41.573 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-26 03:02:41.641 +06:00 [DBG] Connection id "0HN7L71ENUH5A" stopped.
+2024-10-26 03:02:41.641 +06:00 [DBG] Connection id "0HN7L71ENUH59" stopped.
+2024-10-26 03:02:41.650 +06:00 [DBG] Connection id "0HN7L71ENUH5A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-26 03:02:41.650 +06:00 [DBG] Connection id "0HN7L71ENUH59" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-26 03:02:41.747 +06:00 [DBG] Connection id "0HN7L71ENUH5B" accepted.
+2024-10-26 03:02:41.749 +06:00 [DBG] Connection id "0HN7L71ENUH5B" started.
+2024-10-26 03:02:41.805 +06:00 [DBG] Connection 0HN7L71ENUH5B established using the following protocol: "Tls13"
+2024-10-26 03:02:41.879 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - null null
+2024-10-26 03:02:42.001 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-26 03:02:42.074 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-26 03:02:42.078 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-26 03:02:42.104 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-26 03:02:42.106 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-26 03:02:42.110 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - 200 null text/html;charset=utf-8 239.164ms
+2024-10-26 03:02:42.141 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_vs/browserLink - null null
+2024-10-26 03:02:42.141 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-26 03:02:42.168 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 25.3486ms
+2024-10-26 03:02:42.226 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7171/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.8293ms
+2024-10-26 03:02:42.268 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - null null
+2024-10-26 03:02:42.392 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 124.7174ms
+2024-10-26 03:02:50.924 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7171/api/Sample/Post - application/json 22
+2024-10-26 03:02:50.935 +06:00 [DBG] POST requests are not supported
+2024-10-26 03:02:50.968 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Sample/Post'
+2024-10-26 03:02:50.976 +06:00 [DBG] Endpoint 'MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi)' with route pattern 'api/Sample/Post' is valid for the request path '/api/Sample/Post'
+2024-10-26 03:02:50.982 +06:00 [DBG] Request matched endpoint 'MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi)'
+2024-10-26 03:02:50.987 +06:00 [INF] Executing endpoint 'MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi)'
+2024-10-26 03:02:51.037 +06:00 [INF] Route matched with {action = "Post", controller = "Sample"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(MassTransitWebApi.Models.SampleMessage) on controller MassTransitWebApi.Controllers.SampleController (MassTransitWebApi).
+2024-10-26 03:02:51.044 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-26 03:02:51.047 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-26 03:02:51.049 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-26 03:02:51.052 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-26 03:02:51.055 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-26 03:02:51.061 +06:00 [DBG] Executing controller factory for controller MassTransitWebApi.Controllers.SampleController (MassTransitWebApi)
+2024-10-26 03:02:51.064 +06:00 [DBG] Executed controller factory for controller MassTransitWebApi.Controllers.SampleController (MassTransitWebApi)
+2024-10-26 03:02:51.088 +06:00 [DBG] Attempting to bind parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage' ...
+2024-10-26 03:02:51.098 +06:00 [DBG] Attempting to bind parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage' using the name '' in request data ...
+2024-10-26 03:02:51.104 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-26 03:02:51.114 +06:00 [DBG] Connection id "0HN7L71ENUH5B", Request id "0HN7L71ENUH5B:00000009": started reading request body.
+2024-10-26 03:02:51.117 +06:00 [DBG] Connection id "0HN7L71ENUH5B", Request id "0HN7L71ENUH5B:00000009": done reading request body.
+2024-10-26 03:02:51.127 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'MassTransitWebApi.Models.SampleMessage'
+2024-10-26 03:02:51.129 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage'.
+2024-10-26 03:02:51.131 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage'.
+2024-10-26 03:02:51.133 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage' ...
+2024-10-26 03:02:51.150 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage'.
+2024-10-26 03:02:51.200 +06:00 [DBG] Create send transport: "loopback://localhost/urn:message:MassTransitWebApi.Models:SampleMessage"
+2024-10-26 03:02:51.400 +06:00 [DBG] SEND "loopback://localhost/urn:message:MassTransitWebApi.Models:SampleMessage" "55de0000-3e12-84a9-bc22-08dcf5386343" MassTransitWebApi.Models.SampleMessage
+2024-10-26 03:02:51.410 +06:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-26 03:02:51.416 +06:00 [INF] Executed action MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi) in 355.0714ms
+2024-10-26 03:02:51.418 +06:00 [INF] Executed endpoint 'MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi)'
+2024-10-26 03:02:51.420 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7171/api/Sample/Post - 200 0 null 496.6079ms
+2024-10-26 03:02:59.906 +06:00 [INF] Received message: string
+2024-10-26 03:02:59.913 +06:00 [DBG] RECEIVE "loopback://localhost/SampleMessage" "55de0000-3e12-84a9-bc22-08dcf5386343" MassTransitWebApi.Models.SampleMessage MassTransitWebApi.Consumers.SampleMessageConsumer("00:00:08.1617653")
+2024-10-26 03:03:12.788 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7171/api/Sample/Post - application/json 32
+2024-10-26 03:03:12.793 +06:00 [DBG] POST requests are not supported
+2024-10-26 03:03:12.795 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Sample/Post'
+2024-10-26 03:03:12.797 +06:00 [DBG] Endpoint 'MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi)' with route pattern 'api/Sample/Post' is valid for the request path '/api/Sample/Post'
+2024-10-26 03:03:12.799 +06:00 [DBG] Request matched endpoint 'MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi)'
+2024-10-26 03:03:12.800 +06:00 [INF] Executing endpoint 'MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi)'
+2024-10-26 03:03:12.802 +06:00 [INF] Route matched with {action = "Post", controller = "Sample"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(MassTransitWebApi.Models.SampleMessage) on controller MassTransitWebApi.Controllers.SampleController (MassTransitWebApi).
+2024-10-26 03:03:12.806 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-26 03:03:12.808 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-26 03:03:12.810 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-26 03:03:12.813 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-26 03:03:12.814 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-26 03:03:12.816 +06:00 [DBG] Executing controller factory for controller MassTransitWebApi.Controllers.SampleController (MassTransitWebApi)
+2024-10-26 03:03:12.818 +06:00 [DBG] Executed controller factory for controller MassTransitWebApi.Controllers.SampleController (MassTransitWebApi)
+2024-10-26 03:03:12.821 +06:00 [DBG] Attempting to bind parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage' ...
+2024-10-26 03:03:12.824 +06:00 [DBG] Attempting to bind parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage' using the name '' in request data ...
+2024-10-26 03:03:12.826 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-26 03:03:12.829 +06:00 [DBG] Connection id "0HN7L71ENUH5B", Request id "0HN7L71ENUH5B:0000000B": started reading request body.
+2024-10-26 03:03:12.830 +06:00 [DBG] Connection id "0HN7L71ENUH5B", Request id "0HN7L71ENUH5B:0000000B": done reading request body.
+2024-10-26 03:03:12.832 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'MassTransitWebApi.Models.SampleMessage'
+2024-10-26 03:03:12.833 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage'.
+2024-10-26 03:03:12.835 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage'.
+2024-10-26 03:03:12.837 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage' ...
+2024-10-26 03:03:12.840 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'MassTransitWebApi.Models.SampleMessage'.
+2024-10-26 03:03:12.843 +06:00 [DBG] SEND "loopback://localhost/urn:message:MassTransitWebApi.Models:SampleMessage" "55de0000-3e12-84a9-3aa4-08dcf5387028" MassTransitWebApi.Models.SampleMessage
+2024-10-26 03:03:12.847 +06:00 [INF] Received message: Hello Bangladesh
+2024-10-26 03:03:12.847 +06:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-26 03:03:12.848 +06:00 [DBG] RECEIVE "loopback://localhost/SampleMessage" "55de0000-3e12-84a9-3aa4-08dcf5387028" MassTransitWebApi.Models.SampleMessage MassTransitWebApi.Consumers.SampleMessageConsumer("00:00:00.0033690")
+2024-10-26 03:03:12.849 +06:00 [INF] Executed action MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi) in 32.5953ms
+2024-10-26 03:03:12.853 +06:00 [INF] Executed endpoint 'MassTransitWebApi.Controllers.SampleController.Post (MassTransitWebApi)'
+2024-10-26 03:03:12.855 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7171/api/Sample/Post - 200 0 null 67.0628ms
